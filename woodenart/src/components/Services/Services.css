@@ -1,0 +1,33 @@
+.icons {
+    padding: 30px;
+}
+
+.icons h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.icons i {
+    background-color: #6C63FF;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.flex-items {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    
+}
+.flex-items > div {
+    padding: 20px;
+}
+
+@media(max-width:768px){
+    .flex-items{
+        flex-direction: column;
+    }
+}
