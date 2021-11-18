@@ -6,3 +6,21 @@
 #blog{
     font-weight: bold;
 }
+@media (min-width: 768px) {
+    .product-center {
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+    }
+   
+   
+    .description {
+        line-height: 2rem;
+        font-weight:400;
+        
+      }
+    .content-prod h1{
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom:2rem;
+    }
+}

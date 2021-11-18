@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-/* import 'bootstrap/dist/css/bootstrap.min.css'; */
+import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from 'react-bootstrap/Navbar'
 import reportWebVitals from './reportWebVitals';
-
-import App from './components/App';
-import Api from './components/Api';
+import Toolbar from './Components/Toolbar';
+import Section from './Components/Section';
+import Catagaory from './Components/Catagory';
+import Footer from './Components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Api/>
-  
-    
+    <Toolbar sticky="top" />
+    <Section/>
+    <Catagaory/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
